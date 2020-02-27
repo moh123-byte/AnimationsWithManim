@@ -169,7 +169,7 @@ class ScaleAnimation(Scene):
 class ArrangeAnimation1(Scene):
     def construct(self):
         vgroup = VGroup(
-                    Square(),
+                    Rectangle(),
                     Circle()
                 )
         self.add(vgroup)
